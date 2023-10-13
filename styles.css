@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #dcf8c6;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi {
+    display: inline-flex;
+    margin-top: 18%; 
+    border: 2px solid #273443;;
+    border-radius: 5px;
+    padding: 10px;
+    flex-basis: content;
+    justify-content: center;
+    align-items: center;
+    background-color: #273443;
+   
+}
+
+button, input {
+    margin-right: 5px;
+    padding: 10p;
+    padding: 20px;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+}
+
+#tambah {
+    background-color: #075e54;
+    color: white;
+    margin-right: 5px;
+   
+}
+
+img {
+    width: 150px;
+    position: absolute;
+    margin-left: 20px;
+}
